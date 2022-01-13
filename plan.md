@@ -26,6 +26,17 @@
   - 按微软学术给的排名筛top 34w 的学者，记录其最后已知的机构
   - 筛选同机构下合作发表了同一篇论文的学者
   - 合作次数超过 k 次，则属于同一个社区
+### 2022.1.11 ~ 2022.1.13
+
+- 数据集
+  - 对K的值进行了选取，k取5 10 15 20时， community个数如下
+  - total community: 164320, min 5
+  - total community: 122870, min 10
+  - total community: 92908, min 15
+  - total community: 71247, min 20
+- 读完了CP-GNN的代码
+  - Embedding Transformation的地方是否可以修改
+  - 如何引入对比学习
 
 ## 论文阅读
 
