@@ -6,6 +6,7 @@ import copy
 
 es = Elasticsearch(
     hosts="192.168.1.153:9200",
+    http_auth=('elastic', 'GKzy123456')
 )
 search_index = "ms_affiliation_relation"
 author_index = "ms_author"

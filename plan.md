@@ -29,7 +29,7 @@
 ### 2022.1.11 ~ 2022.1.13
 
 - 数据集
-  - 对K的值进行了选取，k取5 10 15 20时， community个数如下
+  - 对community中学者个数的值c进行了选取，c取5 10 15 20时， community个数如下
   - total community: 164320, min 5
   - total community: 122870, min 10
   - total community: 92908, min 15
@@ -37,6 +37,13 @@
 - 读完了CP-GNN的代码
   - Embedding Transformation的地方是否可以修改
   - 如何引入对比学习
+
+### 2022.1.13~2022.1.19
+
+- 数据集
+  - 构建CS领域论文的互引作者对，后面考虑下如何使用这种关系
+  - 考虑社区发现应用于挖掘作者引用规律，没有思路...
+  - 准备go home
 
 ## 论文阅读
 
